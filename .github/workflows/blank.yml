@@ -143,7 +143,7 @@ jobs:
           }]
     - name: Deploy to CloudHub 2
       env:
-        AUTHOR: "Jose Daniel Guerrero"
+        AUTHOR: "Jose Daniel Guerrero G"
       run: |
         artifactName=$(ls *.jar | head -1)
         mvn deploy --file check-in-api-app/pom.xml -DmuleDeploy -Dapi.id=18462305 -Dap.client_id=c9df26cb6936474cae72ff26498ea1ce -Dap.client_secret=45A52aF4F007495Fabc02a66D4632F1d
