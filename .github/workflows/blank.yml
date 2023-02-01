@@ -146,4 +146,4 @@ jobs:
         AUTHOR: "Jose Daniel Guerrero"
       run: |
         artifactName=$(ls *.jar | head -1)
-        mvn deploy --file check-in-api-app/pom.xml -DmuleDeploy -Dapi.id=${{secrets.API_ID}} -Dap.client_id=${{secrets.CLIENT_ID}} -Dap.client_secret=${{secrets.CLIENT_SECRET}}
+        mvn deploy --file check-in-api-app/pom.xml -DmuleDeploy -Dapi.id=18462305 -Dap.client_id=c9df26cb6936474cae72ff26498ea1ce -Dap.client_secret=45A52aF4F007495Fabc02a66D4632F1d
