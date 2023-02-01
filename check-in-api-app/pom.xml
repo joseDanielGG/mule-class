@@ -56,14 +56,13 @@
 								<api.id>${api.id}</api.id>
 							</secureProperties>
 							<deploymentSettings>
-								<updateStrategy>rolling<updateStrategy>
 								<http>
 									<inbound>
 										<lastMileSecurity>true</lastMileSecurity>
 									</inbound>
 								</http>
+								<updateStrategy>rolling</updateStrategy>
 							</deploymentSettings>
-							
 							<integrations>
 								<services>
 									<objectStoreV2>
